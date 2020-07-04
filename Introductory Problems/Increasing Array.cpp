@@ -2,7 +2,8 @@
 using namespace std;
  
 int main() {
-	int n;  cin>>n;
+    int n;
+    scanf("%d", &n);
     vector<int> a(n);
     for(int &i: a) {
     	scanf("%d", &i);
